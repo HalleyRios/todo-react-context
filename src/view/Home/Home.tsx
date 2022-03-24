@@ -1,7 +1,14 @@
-import React from "react";
+import React from 'react';
+import TodoListHeader from '../../layout/TodoListHeader';
+import TodoList from '../../layout/TodoList';
 
 const Home = () => {
-  return(<h1>Home</h1>)
-}
+  return (
+    <>
+      <TodoListHeader />
+      <TodoList />
+    </>
+  );
+};
 
 export default Home;
